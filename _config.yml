@@ -30,7 +30,7 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:true
+comments:
   provider               : "utterances"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
@@ -43,7 +43,7 @@ comments:true
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : "github-light"
-    issue_term           : # 
+    issue_term           : "https://github.com/3people/3people-comments"
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
