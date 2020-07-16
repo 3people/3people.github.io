@@ -43,7 +43,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : "github-light"
-    issue_term           : "https://github.com/3people/3people.github.io/issues"
+    issue_term           : # 
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
